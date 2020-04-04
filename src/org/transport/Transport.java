@@ -1,7 +1,7 @@
 package org.transport;
 
 public class Transport {
-	public void TransportForm() {
+	public void transportForm() {
 		System.out.println("Type of Transport");
 		}
 	

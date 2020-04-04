@@ -1,10 +1,10 @@
 package org.air;
 
 public class Air {
-	public void Aeroplane() {
+	public void aeroplane() {
 		System.out.println("Air India");
 	}
-	public void Helicopter() {
+	public void helicopter() {
 		System.out.println("Air Asia");
 	}
 

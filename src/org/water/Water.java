@@ -5,25 +5,25 @@ import org.road.Road;
 import org.transport.Transport;
 
 public class Water {
-	public void Ship() {
+	public void ship() {
 		System.out.println("Indian Navy");
 	}
-	public void Boat() {
+	public void boat() {
 		System.out.println("TamilNadu");
 
 	}
 	public static void main(String[] args) {
 		Transport t=new Transport();
-		t.TransportForm();
+		t.transportForm();
 		Road r=new Road();
-		r.Bike();
-		r.Bus();
+		r.bike();
+		r.car();
 		Air a=new Air();
-		a.Aeroplane();
-		a.Helicopter();
+		a.aeroplane();
+		a.helicopter();
 		Water w=new Water();
-		w.Boat();
-		w.Ship();
+		w.boat();
+		w.ship();
 	}
 
 }

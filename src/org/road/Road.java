@@ -1,11 +1,11 @@
 package org.road;
 
 public class Road {
-	public void Bike() {
+	public void bike() {
 		System.out.println("Two Wheeler");
 		
 	}
-	public void Bus() {
+	public void car() {
 		System.out.println("Four wheeler");
 	}
 
